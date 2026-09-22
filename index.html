@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Aston Academy - Meknès | Think big, think different</title>
+    <title>William Aston Academy - Meknès | Centre de Formation, Langues & Soutien Scolaire</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,54 +55,48 @@
 <body class="font-sans text-slate-800 bg-waa-lightBg antialiased selection:bg-waa-emerald selection:text-white">
 
     <!-- Top Announcement & Contact Bar -->
-    <div class="bg-waa-navyDark text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
-        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-            <div class="flex items-center space-x-6">
-                <a href="tel:0688611039" class="hover:text-waa-emerald transition-colors flex items-center gap-2">
-                    <i class="fa-solid fa-phone text-waa-emerald"></i>
-                    <span class="font-semibold">06 88 61 10 39</span>
+    <div class="bg-waa-navyDark text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-row justify-between items-center gap-2">
+            
+            <!-- Contact Numbers -->
+            <div class="flex items-center gap-3 sm:gap-6">
+                <a href="tel:0688611039" class="hover:text-waa-emerald transition-colors flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-phone text-waa-emerald text-[11px]"></i>
+                    <span class="font-semibold text-[11px] sm:text-xs">06 88 61 10 39</span>
                 </a>
-                <a href="tel:0532130012" class="hover:text-waa-emerald transition-colors flex items-center gap-2">
-                    <i class="fa-solid fa-phone-office text-waa-emerald"></i>
-                    <span class="font-semibold">05 32 13 00 12</span>
+                <a href="tel:0532130012" class="hidden sm:flex hover:text-waa-emerald transition-colors items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-phone-office text-waa-emerald text-[11px]"></i>
+                    <span class="font-semibold text-xs">05 32 13 00 12</span>
                 </a>
-            </div>
-            <div class="flex items-center space-x-4 text-xs">
-                <span class="flex items-center gap-1.5 text-slate-300">
+                <span class="hidden xl:flex items-center gap-1.5 text-slate-300 text-xs truncate max-w-xs">
                     <i class="fa-solid fa-location-dot text-waa-emerald"></i>
-                    N°33 Av Allal Ben Abdellah, Espace Al Moustakbal, Meknès
+                    N°33 Av Allal Ben Abdellah, Meknès
                 </span>
             </div>
         </div>
     </div>
 
-    <!-- Navigation Header with Exact WAA SVG Logo -->
+    <!-- Navigation Header with Exact WAA SVG Logo (Responsive Fixes for MD/LG/XL) -->
     <header class="sticky top-0 z-40 bg-waa-navy/95 backdrop-blur-md border-b border-slate-800 shadow-xl">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 
-                <!-- BRAND LOGO (Exact Vector SVG matching image_9496e2.png) -->
-                <a href="#" class="flex items-center gap-3.5 group py-2">
+                <!-- BRAND LOGO (Exact Vector SVG - Fluid Scaling) -->
+                <a href="#" class="flex items-center gap-2.5 sm:gap-3.5 group py-2 shrink-0">
                     <!-- SVG WAA Shield Emblem -->
-                    <div class="w-12 h-14 flex items-center justify-center shrink-0">
+                    <div class="w-10 h-12 sm:w-12 sm:h-14 flex items-center justify-center shrink-0">
                         <svg viewBox="0 0 100 120" class="w-full h-full drop-shadow-md">
-                            <!-- Top 3 Five-Point Stars -->
                             <polygon points="20,10 23,17 30,17 24,21 26,28 20,24 14,28 16,21 10,17 17,17" fill="#00C853"/>
                             <polygon points="50,4 53,11 60,11 54,15 56,22 50,18 44,22 46,15 40,11 47,11" fill="#00C853"/>
                             <polygon points="80,10 83,17 90,17 84,21 86,28 80,24 74,28 76,21 70,17 77,17" fill="#00C853"/>
                             
-                            <!-- Outer Shield Outline -->
                             <path d="M10 32 L90 32 L90 70 C90 98 50 116 50 116 C50 116 10 98 10 70 Z" 
                                   fill="none" stroke="#00C853" stroke-width="4.5" stroke-linejoin="round" />
                             
-                            <!-- Interlocking W-A-A Monogram Lines -->
                             <g fill="none" stroke="#00C853" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-                                <!-- 'A' Apex and crossbar -->
                                 <path d="M50 42 L25 90" />
                                 <path d="M50 42 L75 90" />
                                 <path d="M36 68 L64 68" />
-                                
-                                <!-- Interlocking 'W' and 'N' Outer wings -->
                                 <path d="M22 46 L22 84 L38 52 L50 78 L62 52 L78 84 L78 46" stroke-width="4.2" />
                             </g>
                         </svg>
@@ -110,56 +104,56 @@
 
                     <!-- Typography Branding -->
                     <div class="flex flex-col">
-                        <span class="text-waa-emerald font-extrabold text-base sm:text-lg uppercase tracking-wider leading-none">
+                        <span class="text-waa-emerald font-extrabold text-sm sm:text-base md:text-lg uppercase tracking-wider leading-none">
                             WILLIAM ASTON
                         </span>
-                        <span class="text-white font-extrabold text-sm sm:text-base uppercase tracking-widest leading-tight mt-0.5">
+                        <span class="text-white font-extrabold text-xs sm:text-sm md:text-base uppercase tracking-widest leading-tight mt-0.5">
                             ACADEMY
                         </span>
-                        <span class="text-[10px] sm:text-[11px] text-slate-300 italic font-medium tracking-wide">
+                        <span class="text-[9px] sm:text-[10px] md:text-[11px] text-slate-300 italic font-medium tracking-wide">
                             Think big, think different
                         </span>
                     </div>
                 </a>
 
-                <!-- Desktop Navigation Menu -->
-                <nav class="hidden lg:flex items-center space-x-8">
+                <!-- Desktop Navigation Menu (XL Breakpoint Trigger) -->
+                <nav class="hidden xl:flex items-center space-x-6 lg:space-x-8">
                     <a href="#accueil" class="text-white hover:text-waa-emerald font-semibold transition-colors text-sm">Accueil</a>
-                    <a href="#programmes" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Programmes</a>
-                    <a href="#engagements" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Pourquoi WAA ?</a>
-                    <a href="#contact" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Contact & Accès</a>
+                    <a href="#poles" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Formations & Programmes</a>
+                    <a href="#prepa-bac" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Prépa Bac 2026</a>
+                    <a href="#academie" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Notre Académie</a>
+                    <a href="#contact" class="text-slate-300 hover:text-waa-emerald font-semibold transition-colors text-sm">Contact</a>
                 </nav>
 
-                <!-- Action CTA -->
-                <div class="hidden sm:flex items-center">
-                    <a href="#inscription" class="gradient-emerald text-waa-navyDark font-extrabold px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-waa-emerald/30 hover:scale-105 transition-all text-sm flex items-center gap-2">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <span>S'inscrire</span>
+                <!-- Action CTA & Drawer Toggle Group -->
+                <div class="flex items-center gap-2.5 sm:gap-4">
+                    <a href="#inscription" class="gradient-emerald text-waa-navyDark font-extrabold px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full hover:shadow-lg hover:shadow-waa-emerald/30 hover:scale-105 transition-all text-xs sm:text-sm flex items-center gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-pen-to-square text-xs"></i>
+                        <span>Pré-inscription</span>
                     </a>
-                </div>
 
-                <!-- Mobile Menu Toggle Button -->
-                <div class="lg:hidden">
-                    <button id="mobile-menu-btn" class="text-slate-300 hover:text-white focus:outline-none p-2">
-                        <i class="fa-solid fa-bars text-2xl"></i>
+                    <!-- Mobile/Tablet Drawer Toggle Button (Visible up to XL) -->
+                    <button id="mobile-menu-btn" class="xl:hidden text-slate-300 hover:text-white focus:outline-none p-2 rounded-xl bg-waa-navyLight border border-slate-700/60" aria-label="Menu Mobile">
+                        <i class="fa-solid fa-bars text-lg sm:text-xl"></i>
                     </button>
                 </div>
             </div>
         </div>
 
-        <!-- Mobile Menu Drawer -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-waa-navyDark border-b border-slate-800 px-4 pt-3 pb-6 space-y-3">
+        <!-- Mobile & Tablet Menu Drawer (XL Hidden) -->
+        <div id="mobile-menu" class="hidden xl:hidden bg-waa-navyDark border-b border-slate-800 px-4 pt-3 pb-6 space-y-3 shadow-2xl">
             <a href="#accueil" class="block text-white font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Accueil</a>
-            <a href="#programmes" class="block text-slate-300 font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Programmes Bac Eco</a>
-            <a href="#engagements" class="block text-slate-300 font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Pourquoi WAA ?</a>
+            <a href="#poles" class="block text-slate-300 font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Formations & Programmes</a>
+            <a href="#prepa-bac" class="block text-slate-300 font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Prépa Bac 2026</a>
+            <a href="#academie" class="block text-slate-300 font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Notre Académie</a>
             <a href="#contact" class="block text-slate-300 font-medium py-2 px-3 rounded-lg hover:bg-slate-800">Contact & Accès</a>
             <a href="#inscription" class="block w-full text-center gradient-emerald text-waa-navyDark font-extrabold py-3 rounded-xl mt-4">
-                S'inscrire Maintenant
+                Pré-inscription en Ligne
             </a>
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section: Comprehensive Academy Focus -->
     <section id="accueil" class="relative bg-waa-navy hero-pattern text-white pt-12 pb-20 lg:py-24 overflow-hidden border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid lg:grid-cols-12 gap-12 items-center">
@@ -167,21 +161,21 @@
                 <!-- Hero Content Left -->
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center gap-2 bg-waa-emerald/15 border border-waa-emerald/40 rounded-full px-4 py-1.5 text-waa-emerald text-xs sm:text-sm font-bold uppercase tracking-wider badge-pulse">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        <span>Programme Spécial Bac 2026 - Meknès</span>
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Établissement d'Enseignement & Formation à Meknès</span>
                     </div>
 
                     <h1 class="text-3xl sm:text-5xl font-black text-white leading-tight">
-                        Programme de Préparation à <br class="hidden sm:inline">
-                        <span class="text-transparent bg-clip-text gradient-emerald">L'EXAMEN NATIONAL</span>
+                        WILLIAM ASTON ACADEMY <br>
+                        <span class="text-transparent bg-clip-text gradient-emerald">Développez Vos Compétences</span>
                     </h1>
 
                     <p class="text-slate-300 text-base sm:text-xl font-semibold max-w-2xl mx-auto lg:mx-0">
-                        Des <span class="text-waa-emerald uppercase">Sc. Économiques</span> et des <span class="text-waa-emerald uppercase">Sc. de Gestion Comptable</span>
+                        Soutien Scolaire • Langues Vivantes • Formations Professionnelles • Coaching
                     </p>
 
                     <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                        Notre équipe d'enseignants hautement qualifiés s'engage à vous accompagner pas à pas vers la mention et l'excellence académique.
+                        Située au cœur de Meknès (Espace Al Moustakbal), William Aston Academy vous propose un cadre moderne et un accompagnement pédagogique structuré pour atteindre vos objectifs scolaires et professionnels.
                     </p>
 
                     <!-- Quote Motto Box -->
@@ -191,12 +185,12 @@
 
                     <!-- Call To Action Buttons -->
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
-                        <a href="#inscription" class="w-full sm:w-auto gradient-emerald text-waa-navyDark font-black px-8 py-4 rounded-xl hover:shadow-xl hover:shadow-waa-emerald/30 hover:scale-105 transition-all text-center">
-                            Inscriptions Ouvertes ! Rejoignez-nous
-                            <i class="fa-solid fa-bullhorn ml-2"></i>
+                        <a href="#poles" class="w-full sm:w-auto gradient-emerald text-waa-navyDark font-black px-8 py-4 rounded-xl hover:shadow-xl hover:shadow-waa-emerald/30 hover:scale-105 transition-all text-center">
+                            Découvrir Nos Programmes
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
                         </a>
-                        <a href="#programmes" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-4 rounded-xl border border-slate-700 hover:border-slate-500 transition-all text-center">
-                            Découvrir le Programme
+                        <a href="#prepa-bac" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-4 rounded-xl border border-slate-700 hover:border-slate-500 transition-all text-center">
+                            Focus : Prépa Bac 2026
                         </a>
                     </div>
                 </div>
@@ -209,9 +203,9 @@
                         <!-- Header badge -->
                         <div class="flex justify-between items-center mb-6">
                             <span class="text-xs font-black uppercase tracking-wider text-waa-emerald bg-waa-emerald/15 px-3 py-1 rounded-full border border-waa-emerald/30">
-                                Session Intensive
+                                Campus Meknès
                             </span>
-                            <span class="text-xs text-slate-400"><i class="fa-solid fa-users text-waa-emerald mr-1"></i> Places Limitées</span>
+                            <span class="text-xs text-slate-400"><i class="fa-solid fa-location-dot text-waa-emerald mr-1"></i> Av. Allal Ben Abdellah</span>
                         </div>
 
                         <!-- Big Card Crest Logo Showcase -->
@@ -230,40 +224,40 @@
                             </div>
                             <div>
                                 <h4 class="text-white font-extrabold text-base">WILLIAM ASTON ACADEMY</h4>
-                                <p class="text-xs text-waa-emerald font-semibold">Méthodologie & Réussite Garantie</p>
+                                <p class="text-xs text-waa-emerald font-semibold">Think big, think different</p>
                             </div>
                         </div>
 
-                        <!-- Key Benefits List -->
+                        <!-- Pillars List -->
                         <div class="space-y-3.5 mb-8">
                             <div class="flex items-start gap-3 text-sm text-slate-200">
                                 <div class="w-5 h-5 rounded-full bg-waa-emerald/20 text-waa-emerald flex items-center justify-center shrink-0 mt-0.5">
                                     <i class="fa-solid fa-check text-xs"></i>
                                 </div>
-                                <span>Résumés synthétiques de tout le programme annuel</span>
+                                <span>Soutien scolaire & Préparation aux examens nationaux</span>
                             </div>
                             <div class="flex items-start gap-3 text-sm text-slate-200">
                                 <div class="w-5 h-5 rounded-full bg-waa-emerald/20 text-waa-emerald flex items-center justify-center shrink-0 mt-0.5">
                                     <i class="fa-solid fa-check text-xs"></i>
                                 </div>
-                                <span>Correction d'épreuves d'examens nationaux passés</span>
+                                <span>Cours de langues (Anglais, Allemand, Français, Espagnol)</span>
                             </div>
                             <div class="flex items-start gap-3 text-sm text-slate-200">
                                 <div class="w-5 h-5 rounded-full bg-waa-emerald/20 text-waa-emerald flex items-center justify-center shrink-0 mt-0.5">
                                     <i class="fa-solid fa-check text-xs"></i>
                                 </div>
-                                <span>Techniques de rédaction et coaching anti-stress</span>
+                                <span>Formations qualifiantes & Ateliers pratiques</span>
                             </div>
                         </div>
 
                         <!-- Direct Hotline Call Box -->
                         <div class="bg-waa-navy/90 rounded-2xl p-4 border border-slate-700/80 flex items-center justify-between">
                             <div>
-                                <div class="text-xs text-slate-400">Des questions ? Contactez-nous</div>
+                                <div class="text-xs text-slate-400">Renseignements & Inscriptions</div>
                                 <div class="text-sm font-black text-white">06 88 61 10 39 / 05 32 13 00 12</div>
                             </div>
-                            <a href="tel:0688611039" class="w-10 h-10 rounded-full gradient-emerald text-waa-navyDark flex items-center justify-center font-bold hover:scale-110 transition-transform">
-                                <i class="fa-solid fa-phone"></i>
+                            <a href="https://wa.me/212688611039" target="_blank" class="w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold hover:scale-110 transition-transform">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
                             </a>
                         </div>
                     </div>
@@ -273,23 +267,109 @@
         </div>
     </section>
 
-    <!-- Academic Program Subjects Grid (Exactly as in flyer image_949a88.jpg) -->
-    <section id="programmes" class="py-16 sm:py-24 bg-waa-lightBg">
+    <!-- NEW SECTION: Nos Pôles de Formation (Academy Overview) -->
+    <section id="poles" class="py-16 sm:py-24 bg-white border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="text-waa-emerald font-bold text-xs tracking-wider uppercase bg-waa-emerald/10 px-4 py-1.5 rounded-full border border-waa-emerald/20">
-                    Soutien Scolaire Spécialisé
+                    Nos Domaines d'Intervention
                 </span>
                 <h2 class="text-2xl sm:text-4xl font-extrabold text-waa-navy mt-4 mb-3">
-                    AU PROGRAMME DE PRÉPARATION
+                    NOS PÔLES DE FORMATION ET D'ACCOMPAGNEMENT
                 </h2>
                 <p class="text-slate-600 text-sm sm:text-base">
-                    Module complet pour l'Examen National Bac Économie & Gestion
+                    Des programmes adaptés aux besoins des élèves, étudiants et professionnels à Meknès.
                 </p>
             </div>
 
-            <!-- Subject Cards Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Pole 1: Soutien Scolaire -->
+                <div class="bg-waa-lightBg rounded-2xl p-6 border border-slate-200 hover:border-waa-emerald transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-waa-navy mb-2">Soutien Scolaire & Examens</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Encadrement spécialisé pour le Collège et Lycée (Examens Régionaux et Nationaux, Bac Économie, SGC, Sciences).
+                        </p>
+                    </div>
+                    <a href="#prepa-bac" class="text-xs font-bold text-waa-emerald flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        Voir les modules Bac <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Pole 2: Langues Vivantes -->
+                <div class="bg-waa-lightBg rounded-2xl p-6 border border-slate-200 hover:border-waa-emerald transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-waa-navy mb-2">Langues Vivantes</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Cours généraux et conversationnels : Anglais, Français, Allemand, Espagnol. Préparation aux tests de niveau.
+                        </p>
+                    </div>
+                    <a href="#inscription" class="text-xs font-bold text-waa-emerald flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        Se renseigner <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Pole 3: Formations Pro -->
+                <div class="bg-waa-lightBg rounded-2xl p-6 border border-slate-200 hover:border-waa-emerald transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-waa-navy mb-2">Formations Professionnelles</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Modules pratiques, comptabilité, gestion administrative, outils digitaux et certifications à courte durée.
+                        </p>
+                    </div>
+                    <a href="#inscription" class="text-xs font-bold text-waa-emerald flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        Consulter les sessions <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Pole 4: Coaching & Soft Skills -->
+                <div class="bg-waa-lightBg rounded-2xl p-6 border border-slate-200 hover:border-waa-emerald transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-waa-navy mb-2">Coaching & Soft Skills</h3>
+                        <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                            Ateliers de prise de parole, méthodologie de travail, préparation aux entretiens et développement personnel.
+                        </p>
+                    </div>
+                    <a href="#inscription" class="text-xs font-bold text-waa-emerald flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        Prendre rendez-vous <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Campaign Section: Programme Examen National Bac Eco & SGC -->
+    <section id="prepa-bac" class="py-16 sm:py-24 bg-waa-lightBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-waa-emerald font-bold text-xs tracking-wider uppercase bg-waa-emerald/10 px-4 py-1.5 rounded-full border border-waa-emerald/20">
+                    Campagne Spéciale En Cours
+                </span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-waa-navy mt-4 mb-3">
+                    PROGRAMME DE PRÉPARATION À L'EXAMEN NATIONAL
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base">
+                    Sciences Économiques & Sciences de Gestion Comptable (SGC)
+                </p>
+            </div>
+
+            <!-- Subject Cards Grid (From flyer image_949a88.jpg) -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 
                 <!-- Subject 1 -->
@@ -298,16 +378,16 @@
                         <div class="w-14 h-14 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-2xl group-hover:scale-110 transition-transform shadow-md">
                             <i class="fa-solid fa-chart-line"></i>
                         </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Matière Clé</span>
+                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Au Programme</span>
                     </div>
                     <h3 class="text-lg font-bold text-waa-navy group-hover:text-waa-emerald transition-colors mb-2">
                         Économie générale et statistique
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Analyse approfondie des marchés, politiques économiques, agrégats et calculs statistiques.
+                        Analyse des marchés, politiques économiques, agrégats et calculs statistiques appliqués.
                     </p>
                     <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-waa-emerald font-bold">
-                        <span>Voir le programme détaillé</span>
+                        <span>Voir les détails du module</span>
                         <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
@@ -318,16 +398,16 @@
                         <div class="w-14 h-14 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-2xl group-hover:scale-110 transition-transform shadow-md">
                             <i class="fa-solid fa-building-user"></i>
                         </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">EOAE</span>
+                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Au Programme</span>
                     </div>
                     <h3 class="text-lg font-bold text-waa-navy group-hover:text-waa-emerald transition-colors mb-2">
                         Économie et organisation administrative des entreprises
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Stratégie d'entreprise, GRH, fonction commerciale, financière et cas pratiques.
+                        Stratégie d'entreprise, GRH, fonction commerciale, financière et études de cas.
                     </p>
                     <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-waa-emerald font-bold">
-                        <span>Voir le programme détaillé</span>
+                        <span>Voir les détails du module</span>
                         <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
@@ -338,16 +418,16 @@
                         <div class="w-14 h-14 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-2xl group-hover:scale-110 transition-transform shadow-md">
                             <i class="fa-solid fa-calculator"></i>
                         </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Pratique</span>
+                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Au Programme</span>
                     </div>
                     <h3 class="text-lg font-bold text-waa-navy group-hover:text-waa-emerald transition-colors mb-2">
                         Comptabilité et mathématiques financières
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Travaux de fin d'exercice, amortissements, régularisations et calcul d'intérêts.
+                        Travaux de fin d'exercice, amortissements, régularisations et calculs d'intérêts.
                     </p>
                     <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-waa-emerald font-bold">
-                        <span>Voir le programme détaillé</span>
+                        <span>Voir les détails du module</span>
                         <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
@@ -358,16 +438,16 @@
                         <div class="w-14 h-14 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-2xl group-hover:scale-110 transition-transform shadow-md">
                             <i class="fa-solid fa-brain"></i>
                         </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Méthode</span>
+                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Au Programme</span>
                     </div>
                     <h3 class="text-lg font-bold text-waa-navy group-hover:text-waa-emerald transition-colors mb-2">
                         Philosophie
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Entraînement sur les sujets du Bac, structuration d'idées et techniques de rédaction.
+                        Entraînement méthodique, structuration d'idées et techniques d'analyse de texte.
                     </p>
                     <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-waa-emerald font-bold">
-                        <span>Voir le programme détaillé</span>
+                        <span>Voir les détails du module</span>
                         <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
@@ -378,35 +458,35 @@
                         <div class="w-14 h-14 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-2xl group-hover:scale-110 transition-transform shadow-md">
                             <i class="fa-solid fa-language"></i>
                         </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Langues</span>
+                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Au Programme</span>
                     </div>
                     <h3 class="text-lg font-bold text-waa-navy group-hover:text-waa-emerald transition-colors mb-2">
                         Anglais
                     </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Lecture critique, grammaire ciblée et préparation aux formats d'examen national.
+                        Compréhension écrite, compétences linguistiques et entraînement au format d'examen.
                     </p>
                     <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-waa-emerald font-bold">
-                        <span>Voir le programme détaillé</span>
+                        <span>Voir les détails du module</span>
                         <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
 
-                <!-- Bonus Card -->
+                <!-- Callout Box -->
                 <div class="bg-gradient-to-br from-waa-navy via-waa-navy to-waa-navyDark rounded-2xl p-6 shadow-md border border-slate-800 text-white flex flex-col justify-between">
                     <div>
                         <div class="w-12 h-12 rounded-xl bg-waa-emerald/20 text-waa-emerald flex items-center justify-center text-xl mb-4">
-                            <i class="fa-solid fa-user-gear"></i>
+                            <i class="fa-solid fa-bullhorn"></i>
                         </div>
                         <h3 class="text-lg font-bold text-white mb-2">
-                            Suivi Pédagogique Sur Mesure
+                            Inscriptions Ouvertes !
                         </h3>
                         <p class="text-slate-300 text-sm leading-relaxed">
-                            Notre équipe s'engage à vous accompagner à chaque étape de votre parcours d'apprentissage.
+                            Notre équipe s'engage à vous accompagner à chaque étape de votre parcours.
                         </p>
                     </div>
                     <a href="#inscription" class="mt-6 inline-flex items-center text-xs font-bold text-waa-emerald hover:underline">
-                        Réserver un bilan personnalisé <i class="fa-solid fa-arrow-right ml-2"></i>
+                        Réserver votre place <i class="fa-solid fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
@@ -414,51 +494,51 @@
         </div>
     </section>
 
-    <!-- Why WAA Section -->
-    <section id="engagements" class="py-16 sm:py-20 bg-white border-y border-slate-200">
+    <!-- Factual Academy Section -->
+    <section id="academie" class="py-16 sm:py-20 bg-white border-y border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 
                 <div>
                     <span class="text-waa-emerald font-bold text-xs tracking-wider uppercase bg-waa-emerald/10 px-4 py-1.5 rounded-full border border-waa-emerald/20">
-                        Notre Valeur Ajoutée
+                        Notre Approche Pédagogique
                     </span>
                     <h2 class="text-3xl sm:text-4xl font-extrabold text-waa-navy mt-4 mb-6">
-                        Pourquoi Choisir William Aston Academy ?
+                        Un Cadre d'Apprentissage Moderne à Meknès
                     </h2>
                     
                     <p class="text-slate-600 leading-relaxed mb-8">
-                        L'académie est construite sur des normes de qualité strictes afin de donner à chaque étudiant la confiance et les compétences requises pour réussir ses examens nationaux.
+                        William Aston Academy met à disposition des apprenants des salles de cours adaptées, une méthodologie structurée et une équipe attentive pour favoriser la progression individuelle.
                     </p>
 
                     <div class="space-y-6">
                         <div class="flex items-start space-x-4">
                             <div class="w-12 h-12 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl shrink-0 shadow-md">
-                                <i class="fa-solid fa-graduation-cap"></i>
+                                <i class="fa-solid fa-user-check"></i>
                             </div>
                             <div>
-                                <h4 class="text-base font-bold text-waa-navy">Professeurs Experts & Expérimentés</h4>
-                                <p class="text-slate-500 text-sm mt-1">Enseignants spécialistes préparant activement aux épreuves du Baccalauréat.</p>
+                                <h4 class="text-base font-bold text-waa-navy">Accompagnement Pédagogique Personnalisé</h4>
+                                <p class="text-slate-500 text-sm mt-1">Suivi régulier des notions abordées pour répondre précisément aux besoins de chaque apprenant.</p>
                             </div>
                         </div>
 
                         <div class="flex items-start space-x-4">
                             <div class="w-12 h-12 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl shrink-0 shadow-md">
-                                <i class="fa-solid fa-list-check"></i>
+                                <i class="fa-solid fa-users"></i>
                             </div>
                             <div>
-                                <h4 class="text-base font-bold text-waa-navy">Examens Blancs Réguliers</h4>
-                                <p class="text-slate-500 text-sm mt-1">Évaluations continues sous conditions réelles pour maîtriser la gestion du temps.</p>
+                                <h4 class="text-base font-bold text-waa-navy">Groupes de Travail Dynamiques</h4>
+                                <p class="text-slate-500 text-sm mt-1">Effectifs étudiés pour encourager l'interaction, les questions directes et la participation active.</p>
                             </div>
                         </div>
 
                         <div class="flex items-start space-x-4">
                             <div class="w-12 h-12 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl shrink-0 shadow-md">
-                                <i class="fa-solid fa-shield-halved"></i>
+                                <i class="fa-solid fa-map-pin"></i>
                             </div>
                             <div>
-                                <h4 class="text-base font-bold text-waa-navy">Groupes à Effectif Réduit</h4>
-                                <p class="text-slate-500 text-sm mt-1">Un environnement convivial favorisant la participation interactive et la concentration.</p>
+                                <h4 class="text-base font-bold text-waa-navy">Emplacement Accessible</h4>
+                                <p class="text-slate-500 text-sm mt-1">Situé sur l'Avenue Allal Ben Abdellah (Espace Al Moustakbal), au cœur de la ville de Meknès.</p>
                             </div>
                         </div>
                     </div>
@@ -470,23 +550,23 @@
                     
                     <div class="flex items-center gap-3 mb-6">
                         <div class="w-10 h-10 rounded-lg bg-waa-emerald/20 flex items-center justify-center text-waa-emerald">
-                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-shield-halved"></i>
                         </div>
-                        <span class="text-sm font-bold uppercase tracking-widest text-waa-emerald">Excellence Académique</span>
+                        <span class="text-sm font-bold uppercase tracking-widest text-waa-emerald">Engagements WAA</span>
                     </div>
 
-                    <h3 class="text-2xl font-bold mb-4">Votre Réussite Est Notre Engagement</h3>
+                    <h3 class="text-2xl font-bold mb-4">"Chez WAA, votre réussite est notre engagement !"</h3>
                     <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                        Rejoignez des centaines d'élèves qui ont concrétisé leurs ambitions académiques grâce à l'accompagnement personnalisé de WAA Meknès.
+                        Que vous prépariez une épreuve décisive ou que vous souhaitiez acquérir une nouvelle langue, l'académie vous fournit le cadre nécessaire pour progresser avec confiance.
                     </p>
 
                     <div class="bg-waa-navyLight p-5 rounded-2xl border border-slate-700/80 mb-6">
-                        <div class="text-slate-400 text-xs uppercase font-bold tracking-wider mb-1">Motto Officiel</div>
+                        <div class="text-slate-400 text-xs uppercase font-bold tracking-wider mb-1">Slogan Officiel</div>
                         <div class="text-waa-emerald font-extrabold text-lg italic">"Think big, think different"</div>
                     </div>
 
-                    <a href="#inscription" class="block w-full text-center gradient-emerald text-waa-navyDark font-extrabold py-3.5 rounded-xl hover:shadow-lg transition-all">
-                        Inscrivez-vous Dès Maintenant
+                    <a href="https://wa.me/212688611039" target="_blank" class="block w-full text-center bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold py-3.5 rounded-xl transition-all shadow-md">
+                        <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> Contact Direct via WhatsApp
                     </a>
                 </div>
 
@@ -494,23 +574,40 @@
         </div>
     </section>
 
-    <!-- Registration Form & Contact Section -->
+    <!-- Transparent Prototype Form & Direct WhatsApp Contact -->
     <section id="inscription" class="py-16 sm:py-24 bg-waa-lightBg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-12 gap-12">
                 
                 <!-- Registration Form Left -->
                 <div class="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl shadow-lg border border-slate-200">
-                    <div class="mb-8">
+                    <div class="mb-6">
                         <span class="text-waa-emerald font-bold text-xs tracking-wider uppercase bg-waa-emerald/10 px-3 py-1 rounded-full border border-waa-emerald/20">
-                            INSCRIPTIONS OUVERTES
+                            DÉMONSTRATION INTERACTIVE
                         </span>
                         <h2 class="text-2xl sm:text-3xl font-extrabold text-waa-navy mt-3">
-                            Formulaire de Pré-Inscription
+                            Prototype de Pré-inscription en Ligne
                         </h2>
-                        <p class="text-slate-500 text-sm mt-1">
-                            Remplissez ce formulaire et bénéficiez d'une séance d'orientation gratuite.
+                        <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                            <i class="fa-solid fa-circle-info text-waa-emerald mr-1"></i>
+                            <strong>Note d'intégration :</strong> Ceci est un prototype visuel. En version finale, ce formulaire transmet automatiquement les inscriptions vers votre messagerie WhatsApp, votre adresse email ou votre CRM interne.
                         </p>
+                    </div>
+
+                    <!-- Direct WhatsApp Callout Option -->
+                    <div class="mb-8 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs font-bold text-emerald-900 uppercase">Besoin d'une réponse immédiate ?</div>
+                                <div class="text-xs text-emerald-700">Contactez directement le secrétariat sur WhatsApp</div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/212688611039" target="_blank" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition-all text-center whitespace-nowrap">
+                            Discuter sur WhatsApp
+                        </a>
                     </div>
 
                     <form id="registration-form" onsubmit="handleFormSubmit(event)" class="space-y-5">
@@ -526,36 +623,27 @@
                         </div>
 
                         <div>
-                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Niveau & Branche *</label>
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Programme d'Intérêt *</label>
                             <select required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-waa-emerald focus:border-transparent text-sm bg-slate-50/50 text-slate-700">
-                                <option value="" disabled selected>Sélectionnez votre branche</option>
-                                <option value="2bac-eco">2ème Année Bac - Sciences Économiques</option>
-                                <option value="2bac-sgc">2ème Année Bac - Sc. de Gestion Comptable (SGC)</option>
-                                <option value="1bac">1ère Année Baccalauréat</option>
-                                <option value="langues">Cours de Langues Vivantes</option>
-                                <option value="autre">Autre soutien / Formation Pro</option>
+                                <option value="" disabled selected>Sélectionnez un programme</option>
+                                <option value="2bac-eco">Bac Économie & Gestion (Session 2026)</option>
+                                <option value="soutien-general">Soutien Scolaire (Lycée / Collège)</option>
+                                <option value="langues">Cours de Langues (Anglais, Allemand, Français, Espagnol)</option>
+                                <option value="formation-pro">Formation Professionnelle & Certifications</option>
+                                <option value="coaching">Coaching & Développement Personnel</option>
                             </select>
                         </div>
 
                         <div>
-                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Message / Matières souhaitées</label>
-                            <textarea rows="4" placeholder="Mentionnez les matières d'intérêt ou vos questions..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-waa-emerald focus:border-transparent text-sm bg-slate-50/50"></textarea>
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Message ou Précisions</label>
+                            <textarea rows="3" placeholder="Vos disponibilités, niveau actuel ou questions..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-waa-emerald focus:border-transparent text-sm bg-slate-50/50"></textarea>
                         </div>
 
                         <button type="submit" class="w-full gradient-emerald text-waa-navyDark font-black py-4 rounded-xl hover:shadow-xl hover:scale-[1.01] transition-all text-center flex items-center justify-center gap-2">
                             <i class="fa-solid fa-paper-plane"></i>
-                            <span>Rejoignez-nous !</span>
+                            <span>Simuler l'Envoi de la Pré-inscription</span>
                         </button>
                     </form>
-
-                    <!-- Success Alert -->
-                    <div id="form-success" class="hidden mt-6 p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-emerald-600 text-xl shrink-0"></i>
-                        <div>
-                            <strong>Demande reçue avec succès !</strong>
-                            <p class="text-xs text-emerald-700 mt-0.5">L'équipe William Aston Academy vous recontactera sous très peu de temps.</p>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Contact Info Right -->
@@ -563,7 +651,7 @@
                     <div class="bg-waa-navy text-white p-8 rounded-3xl shadow-lg border border-slate-800">
                         <h3 class="text-xl font-bold mb-6 flex items-center gap-2">
                             <i class="fa-solid fa-location-dot text-waa-emerald"></i>
-                            Contact & Localisation
+                            Coordonnées Officielle
                         </h3>
 
                         <div class="space-y-6 text-sm">
@@ -572,7 +660,7 @@
                                     <i class="fa-solid fa-map-location-dot"></i>
                                 </div>
                                 <div>
-                                    <div class="text-xs text-slate-400 font-bold uppercase">Adresse à Meknès</div>
+                                    <div class="text-xs text-slate-400 font-bold uppercase">Adresse</div>
                                     <div class="font-semibold text-slate-200 mt-0.5">
                                         N°33 Av Allal Ben Abdellah, Espace Al Moustakbal, Meknès
                                     </div>
@@ -597,29 +685,27 @@
                                     <i class="fa-solid fa-clock"></i>
                                 </div>
                                 <div>
-                                    <div class="text-xs text-slate-400 font-bold uppercase">Horaires d'Ouverture</div>
+                                    <div class="text-xs text-slate-400 font-bold uppercase">Accueil & Secrétariat</div>
                                     <div class="font-semibold text-slate-200 mt-0.5">
-                                        Lundi - Samedi : 09:00 - 20:00
+                                        Lundi - Samedi : Heures d'ouverture habituelles
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Interactive Location Map Card -->
-                    <div class="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex-1 min-h-[220px] flex flex-col justify-between">
-                        <div class="bg-slate-100 rounded-2xl w-full h-full p-6 flex flex-col items-center justify-center text-center">
-                            <div class="w-12 h-12 rounded-full bg-waa-emerald/20 text-waa-emerald flex items-center justify-center text-xl mb-3 animate-bounce">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <span class="font-bold text-waa-navy text-base">William Aston Academy</span>
-                            <span class="text-xs text-slate-500 mt-1">Espace Al Moustakbal, Av. Allal Ben Abdellah, Meknès</span>
-                            
-                            <a href="https://maps.google.com/?q=N33+Av+Allal+Ben+Abdellah+Meknes" target="_blank" class="mt-4 inline-flex items-center gap-2 bg-waa-navy text-white text-xs px-5 py-2.5 rounded-xl font-bold hover:bg-waa-navyLight transition-colors shadow-md">
-                                <i class="fa-solid fa-directions"></i>
-                                ITINÉRAIRE GOOGLE MAPS
-                            </a>
-                        </div>
+                    <!-- Real Google Maps Embed -->
+                    <div class="bg-white p-2 rounded-3xl border border-slate-200 shadow-sm overflow-hidden h-[250px]">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.448564175395!2d-5.5450!3d33.8950!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda044d012345678%3A0x123456789abcdef!2sAv.%20Allal%20Ben%20Abdellah%2C%20Mekn%C3%A8s!5e0!3m2!1sfr!2sma!4v1710000000000!5m2!1sfr!2sma" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; border-radius: 1.25rem;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Carte Google Maps - Avenue Allal Ben Abdellah Meknès">
+                        </iframe>
                     </div>
 
                 </div>
@@ -665,7 +751,7 @@
                     </a>
 
                     <p class="text-xs leading-relaxed max-w-md text-slate-400 pt-2">
-                        Centre d'excellence pédagogique à Meknès spécialisé dans le soutien scolaire, la préparation aux examens nationaux et les cours de langues vivantes.
+                        Centre de formation, langues vivantes et soutien scolaire situé à Meknès (Espace Al Moustakbal).
                     </p>
 
                     <div class="text-xs text-waa-emerald font-bold italic">
@@ -678,9 +764,10 @@
                     <h4 class="text-white font-bold text-xs uppercase tracking-widest mb-4 border-b border-slate-800 pb-2">Navigation</h4>
                     <ul class="space-y-2.5 text-xs">
                         <li><a href="#accueil" class="hover:text-waa-emerald transition-colors">Accueil</a></li>
-                        <li><a href="#programmes" class="hover:text-waa-emerald transition-colors">Programmes Bac Eco</a></li>
-                        <li><a href="#engagements" class="hover:text-waa-emerald transition-colors">Pourquoi WAA ?</a></li>
-                        <li><a href="#inscription" class="hover:text-waa-emerald transition-colors">S'inscrire</a></li>
+                        <li><a href="#poles" class="hover:text-waa-emerald transition-colors">Formations & Pôles</a></li>
+                        <li><a href="#prepa-bac" class="hover:text-waa-emerald transition-colors">Prépa Bac 2026</a></li>
+                        <li><a href="#academie" class="hover:text-waa-emerald transition-colors">Notre Académie</a></li>
+                        <li><a href="#inscription" class="hover:text-waa-emerald transition-colors">Pré-inscription</a></li>
                     </ul>
                 </div>
 
@@ -699,12 +786,11 @@
             <!-- Bottom Copyright Bar -->
             <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
                 <div>
-                    &copy; 2026 William Aston Academy (WAA). Tous droits réservés.
+                    &copy; 2026 William Aston Academy (WAA). Concept de démonstration interactive.
                 </div>
                 <div class="flex space-x-5 text-slate-400 text-sm">
-                    <a href="#" class="hover:text-waa-emerald transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="hover:text-waa-emerald transition-colors"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://wa.me/212688611039" target="_blank" class="hover:text-waa-emerald transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:0688611039" class="hover:text-waa-emerald transition-colors"><i class="fa-solid fa-phone"></i></a>
                 </div>
             </div>
         </div>
@@ -713,7 +799,7 @@
     <!-- Interactive Module Detail Modal -->
     <div id="module-modal" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl transform scale-95 transition-transform duration-300" id="modal-content">
-            <button onclick="closeModuleModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center text-sm">
+            <button onclick="closeModuleModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center text-sm" aria-label="Fermer">
                 <i class="fa-solid fa-xmark"></i>
             </button>
             <div class="w-12 h-12 rounded-2xl bg-waa-navy text-waa-emerald flex items-center justify-center text-xl mb-4">
@@ -723,15 +809,31 @@
             <p id="modal-description" class="text-slate-600 text-sm leading-relaxed mb-6">Description synthétique du programme...</p>
             <div class="flex justify-end">
                 <a href="#inscription" onclick="closeModuleModal()" class="gradient-emerald text-waa-navyDark font-extrabold px-5 py-2.5 rounded-xl text-xs shadow-md hover:scale-105 transition-transform">
-                    Inscrire l'élève à ce module
+                    Pré-inscrire pour ce module
                 </a>
             </div>
         </div>
     </div>
 
-    <!-- Scripts -->
+    <!-- Prototype Submission Modal -->
+    <div id="proto-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl text-center">
+            <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-3xl mx-auto mb-4">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="text-xl font-black text-waa-navy mb-2">Test du Formulaire Réussi !</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-6">
+                <strong>Information Prototype :</strong> Les données saisies sont prêtes à être raccordées à votre système de traitement (notification WhatsApp instantanée, envoi d'email automatique ou CRM d'inscription).
+            </p>
+            <button onclick="closeProtoModal()" class="gradient-emerald text-waa-navyDark font-extrabold w-full py-3 rounded-xl text-xs shadow-md">
+                Compris, Fermer la Démo
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Handlers -->
     <script>
-        // Mobile Navigation Toggle
+        // Mobile Navigation Drawer Toggle
         const mobileBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
@@ -748,15 +850,16 @@
         // Form Handling Simulation
         function handleFormSubmit(e) {
             e.preventDefault();
-            const successBox = document.getElementById('form-success');
+            const protoModal = document.getElementById('proto-modal');
             const form = document.getElementById('registration-form');
             
-            successBox.classList.remove('hidden');
+            protoModal.classList.remove('opacity-0', 'pointer-events-none');
             form.reset();
-            
-            setTimeout(() => {
-                successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 100);
+        }
+
+        function closeProtoModal() {
+            const protoModal = document.getElementById('proto-modal');
+            protoModal.classList.add('opacity-0', 'pointer-events-none');
         }
 
         // Program Module Modal Toggle
